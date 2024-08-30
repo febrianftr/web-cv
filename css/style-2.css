@@ -308,6 +308,42 @@ body{
   }
 
 
+  .div-edu span, .div-edu p{
+    font-size: 21px;
+    color: #595959;;
+  }
+
+  .btn-edu{
+    background-color: #50b787;
+    color: #fff;  
+    padding: 10px 21px; 
+    border-radius: unset;
+  }
+
+  .btn-edu:hover{
+    background-color: #48a87b;
+    color: #fff; 
+  }
+
+  .img-edu{
+    width: 500px;
+  }
+
+  .div-edu{
+    background: #ecececab;
+    padding: 30px;
+    margin: -50px;
+    position: absolute;
+    top: 40px;
+    left: -50px;
+  }
+
+  .wrap-edu{
+    justify-content: left;
+    margin-left: 130px;
+  }
+
+
   
 
 
@@ -316,6 +352,15 @@ body{
 
 
 /* =====Media Responsive==== */
+
+
+@media (max-width: 1100px) {
+  .wrap-edu{
+    justify-content: center;
+    margin-left: unset;
+  }
+}
+
 
   @media (max-width: 800px) {
     .content-feb img{
@@ -330,12 +375,27 @@ body{
       width: 100%; 
       padding: 30px;
     }
+
+    .div-edu{
+      left: -230px;
+    }
+
+    .div-edu h4{
+      font-size: 20px;
+    }
+
+    .div-edu span, .div-edu p{
+      font-size: 17px;
+    }
+
+    
   }
 
   @media (max-width: 630px) {
     .text-header h1 {
       font-size: 38px;
       text-align: center;
+      margin-top: 50px;
     }
 
     .p-ex p{
@@ -360,13 +420,25 @@ body{
       margin-right: 46px;
   }
 
-  .div-ex{
-    display: contents;
-  }
+    .div-ex{
+      display: contents;
+    }
 
-  .div-ex-2{
-    margin-top: 70px;
-  }
+    .div-ex-2{
+      margin-top: 70px;
+      margin-left: 50px;
+    }
+
+
+    .div-edu{
+      text-align: end;
+      top: -102px;
+      left: 135px;
+    }
+
+    .img-edu {
+      width: 384px;
+    }
 
   }
 
@@ -375,6 +447,15 @@ body{
       width: 250px;
       border: 9px solid #fff;
   }
+
+    .img-edu{
+      width: 100%;
+      padding: 20px;
+    }
+
+    .div-edu{
+      left: 67px;
+    }
   }
 
   
