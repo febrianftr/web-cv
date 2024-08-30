@@ -343,8 +343,24 @@ body{
     margin-left: 130px;
   }
 
+  .back-header-ex {
+    height: 350px;
+    margin-top: 92px;
+    margin-bottom: 0;
+    background-color: #d7d7d738;
+    width: 60%;
+    position: absolute;
+  }
 
+  .wrap-ser{
+    margin-left: 0;
+    margin-top: 238px;
+    padding-left: 0;
+  }
   
+
+
+
 
 
 
@@ -390,6 +406,13 @@ body{
 
     
   }
+
+  @media (max-width: 727px) {
+    .back-header-ex {
+      height: 453px;
+    }
+  }
+
 
   @media (max-width: 630px) {
     .text-header h1 {
@@ -440,7 +463,19 @@ body{
       width: 384px;
     }
 
+    .back-header-ex{
+      margin-top: 55px;
+    }
+
   }
+
+
+  @media (max-width: 581px) {
+    .back-header-ex{
+      height: 535px;
+    }
+  }
+
 
   @media (max-width: 530px) {
     .content-feb img{

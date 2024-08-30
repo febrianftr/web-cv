@@ -20,7 +20,7 @@
                     <span class="text">
                         <div class="borde-back">
                             <div class="icon">
-                                <img src="assets/me.svg" style="width: 30px;">
+                                <img src="assets/user-rounded.svg" style="width: 30px;">
                             </div>
                         </div>
                     </span>
@@ -33,7 +33,7 @@
                     <span class="text">
                         <div class="borde-back">
                             <div class="icon">
-                                <img src="assets/education.svg" style="width: 30px;">
+                                <img src="assets/me.svg" style="width: 30px;">
                             </div>
                         </div>
                     </span>
@@ -46,7 +46,7 @@
                     <span class="text">
                         <div class="borde-back">
                             <div class="icon">
-                                <img src="assets/contact.svg" style="width: 30px;">
+                                <img src="assets/education.svg" style="width: 30px;">
                             </div>
                         </div>
                     </span>
@@ -98,7 +98,8 @@
                 </div>
             </div>
 
-            <div id="my-ex">
+            <div class="back-header-ex"></div>
+            <div id="my-ex" style="position: relative;">
                 <div class="body-feb text-header div-ex">
                     <div class="div-ex-2">
                         <h1 class="h1-ex">
@@ -117,24 +118,49 @@
             </div>
 
             <div id="my-edu">
-                <div class="body-feb text-header div-ex wrap-edu">      
-                    <div class="div-ex-2">
-                        <div class="wrap-img-edu">
-                            <h1>Education</h1>
-                            <img class="img-edu" src="assets/img-edu.jpg">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="body-feb text-header div-ex wrap-edu">      
+                                <div class="div-ex-2">
+                                    <div class="wrap-img-edu">
+                                        <h1>Education</h1>
+                                        <img class="img-edu" src="assets/img-edu.jpg">
+                                    </div>
+                                </div>
+                                <div class="p-ex" style="position: relative;">
+                                    <div class="div-edu">
+                                        <h4>Bachelor of Information Systems</h4>
+                                        <span>Gunadarma University</span>
+                                        <p>Graduated: 2017</p>
+                                        <button class="btn btn-edu">Read More</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-ex" style="position: relative;">
-                        <div class="div-edu">
-                            <h4>Bachelor of Information Systems</h4>
-                            <span>Gunadarma University</span>
-                            <p>Graduated: 2017</p>
-                            <button class="btn btn-edu">Read More</button>
+                        <div class="col-lg-6">
+                            <div class="body-feb text-header div-ex wrap-edu wrap-ser">      
+                                <div class="div-ex-2">
+                                    <div class="wrap-img-edu">
+                                        <h1>Sertificate</h1>
+                                        <img class="img-edu" src="assets/sertificate.jpg">
+                                    </div>
+                                </div>
+                                <div class="p-ex" style="position: relative;">
+                                    <div class="div-edu">
+                                        <h4>Web Design</h4>
+                                        <h5>(CSS - Bootstrap - JQuery)</h5>
+                                        <span>YellowWeb</span>
+                                        <p>2018</p>
+                                        <button class="btn btn-edu">Read More</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
-                        
                     </div>
                 </div>
-
             </div>
 
 
